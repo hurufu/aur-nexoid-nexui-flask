@@ -17,6 +17,7 @@ depends=(
     python-gevent
     libsocket
     nexoid-fat
+    mailcap
 )
 makedepends=(
     git

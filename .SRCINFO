@@ -14,6 +14,7 @@ pkgbase = nexoid-nexui-flask-git
 	depends = python-gevent
 	depends = libsocket
 	depends = nexoid-fat
+	depends = mailcap
 	provides = nexoid-nexui
 	source = git+ssh://git@github.com:/hurufu/nexoid-nexui-flask.git
 	source = git+git://github.com/AlainCouthures/declarative4all.git
