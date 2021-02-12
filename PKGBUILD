@@ -11,6 +11,10 @@ depends=(
     python-bitstruct
     python-timebudget
     python-pynng
+    python-flask
+    python-bitstring
+    python-asn1tools
+    python-gevent
     libsocket
     nexoid-fat
 )
