@@ -10,7 +10,7 @@ group=(nexoid)
 depends=(
     python-bitstruct
     python-timebudget
-    python-pynng-git
+    python-pynng
     libsocket
     nexoid-fat
 )
@@ -21,7 +21,7 @@ provides=(
     nexoid-nexui
 )
 source=(
-    git+git@github.com:hurufu/nexoid-nexui-flask.git
+    git+ssh://git@github.com:/hurufu/nexoid-nexui-flask.git
     git+git://github.com/AlainCouthures/declarative4all.git
 )
 md5sums=(
@@ -30,7 +30,7 @@ md5sums=(
 )
 
 build() {
-    cd "$srcdir/flask-nexui"
+    cd "$srcdir/nexoid-nexui-flask"
     git submodule init
     git config submodule.'XSLTForms1.5'.url "$srcdir/declarative4all"
     git submodule update
@@ -38,7 +38,6 @@ build() {
 }
 
 package() {
-    builddir=
-    cd "${srcdir}/flask-nexui"
+    cd "$srcdir/nexoid-nexui-flask"
     python setup.py install -O1 --root="$pkgdir" --skip-build
 }
