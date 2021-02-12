@@ -17,8 +17,13 @@ pkgbase = nexoid-nexui-flask-git
 	provides = nexoid-nexui
 	source = git+ssh://git@github.com:/hurufu/nexoid-nexui-flask.git
 	source = git+git://github.com/AlainCouthures/declarative4all.git
+	source = nexui.service
 	md5sums = SKIP
 	md5sums = SKIP
+	md5sums = 179174b2f27bc612fb35375fff9c9933
+	sha1sums = SKIP
+	sha1sums = SKIP
+	sha1sums = e86244af11cabbb40e2b14185b675040e0674386
 
 pkgname = nexoid-nexui-flask-git
 
