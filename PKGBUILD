@@ -6,7 +6,7 @@ pkgrel=1
 pkgdesc='NEXO-in-the-cloud demo'
 arch=(any)
 license=('AGPL')
-group=(nexoid)
+groups=(nexoid)
 depends=(
     python-bitstruct
     python-timebudget
@@ -23,7 +23,7 @@ makedepends=(
     git
 )
 provides=(
-    nexoid-nexui
+    nexoid-nexui-flask
 )
 source=(
     git+ssh://git@github.com:/hurufu/nexoid-nexui-flask.git
