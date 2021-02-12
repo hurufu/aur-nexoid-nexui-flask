@@ -28,18 +28,10 @@ provides=(
 source=(
     git+ssh://git@github.com:/hurufu/nexoid-nexui-flask.git
     git+git://github.com/AlainCouthures/declarative4all.git
-    nexui.service
 )
 md5sums=(
     SKIP
     SKIP
-    179174b2f27bc612fb35375fff9c9933
-)
-
-sha1sums=(
-    SKIP
-    SKIP
-    e86244af11cabbb40e2b14185b675040e0674386
 )
 
 build() {
@@ -51,8 +43,6 @@ build() {
 }
 
 package() {
-    install -Dm444 -t "$pkgdir/usr/lib/systemd/system" nexui.service
-
     cd "$srcdir/nexoid-nexui-flask"
     python setup.py install -O1 --root="$pkgdir" --skip-build
 }
