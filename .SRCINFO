@@ -1,7 +1,7 @@
 pkgbase = nexoid-nexui-flask-git
 	pkgdesc = NEXO-in-the-cloud demo
 	pkgver = 0.0.1
-	pkgrel = 1
+	pkgrel = 2
 	arch = any
 	groups = nexoid
 	license = AGPL
@@ -18,7 +18,9 @@ pkgbase = nexoid-nexui-flask-git
 	depends = mailcap
 	provides = nexoid-nexui-flask
 	source = git+ssh://git@github.com:/hurufu/nexoid-nexui-flask.git
+	source = git+ssh://git@github.com:/hurufu/nexoid-protocol-collection.git
 	source = git+git://github.com/AlainCouthures/declarative4all.git
+	md5sums = SKIP
 	md5sums = SKIP
 	md5sums = SKIP
 
