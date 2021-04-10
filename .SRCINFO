@@ -1,6 +1,6 @@
 pkgbase = nexoid-nexui-flask-git
 	pkgdesc = NEXO-in-the-cloud demo
-	pkgver = 0.0.1
+	pkgver = 0.0.2
 	pkgrel = 2
 	arch = any
 	groups = nexoid
@@ -13,6 +13,7 @@ pkgbase = nexoid-nexui-flask-git
 	depends = python-bitstring
 	depends = python-asn1tools
 	depends = python-gevent
+	depends = python-babel
 	depends = libsocket
 	depends = nexoid-fat
 	depends = mailcap

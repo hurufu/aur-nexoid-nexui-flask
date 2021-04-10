@@ -1,7 +1,7 @@
 # Maintainer: Aleksy Grabowski <hurufu+arch@gmail.com>
 
 pkgname=nexoid-nexui-flask-git
-pkgver=0.0.1
+pkgver=0.0.2
 pkgrel=2
 pkgdesc='NEXO-in-the-cloud demo'
 arch=(any)
@@ -15,6 +15,7 @@ depends=(
     python-bitstring
     python-asn1tools
     python-gevent
+    python-babel
     libsocket
     nexoid-fat
     mailcap
