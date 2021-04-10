@@ -1,8 +1,8 @@
 # Maintainer: Aleksy Grabowski <hurufu+arch@gmail.com>
 
 pkgname=nexoid-nexui-flask-git
-pkgver=0.0.2
-pkgrel=2
+pkgver=0.0.3
+pkgrel=1
 pkgdesc='NEXO-in-the-cloud demo'
 arch=(any)
 license=('AGPL')
